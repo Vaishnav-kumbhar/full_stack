@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(120, 81, 148);
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 7px;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.cover > input {
+  height: 25px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.cover > button {
+  padding: 5px 10px;
+  background-color: #080808;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 10px;
+  border: none;
+}

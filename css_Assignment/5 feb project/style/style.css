@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  background-image: url(/assests/bg.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 50px;
+  height: 90px;
+  background-color: #000000;
+}
+
+.menu {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+  /* margin-left: -300px; */
+  margin-top: -15px;
+  width: 500px;
+}
+
+.navbar > li {
+  list-style-type: none;
+}
+
+li > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbar > .nav-logo {
+  margin-left: 20px;
+  /* margin-top: 15px; */
+  /* margin-bottom: 10px; */
+  width: 222px;
+}
+
+.navbar > .nav-btn {
+  margin-left: 400px;
+  background-color: #c614cd;
+  color: #ffffff;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8%;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.navbar > .nav-btn:hover {
+  background-color: #fff;
+  border: 1px solid #000000;
+  cursor: pointer;
+  color: #000000;
+}
+
+/* main section */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.pipe {
+  height: 55px;
+  width: 1.5px;
+  background-color: #fff;
+}
+
+.main-heading > h1 {
+  color: #ffffff;
+  font-size: 5rem;
+  width: 800px;
+  font-weight: 900;
+}
+
+.main-heading > p {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.btn {
+  margin-top: 80px;
+  background-color: #bc2cd8;
+  color: #ffffff;
+  padding: 10px 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 8%;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border: 1px solid #000000;
+  cursor: pointer;
+  color: #000000;
+}

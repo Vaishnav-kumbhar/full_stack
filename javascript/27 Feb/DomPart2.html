@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom part - II</title>
+    <style>
+      /* nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      ul li {
+        list-style: none;
+      }
+
+      ul {
+        display: flex;
+        gap: 50px;
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- creating header -->
+    <header>
+      <nav class="topBanner">
+        <div id="inp">
+          <label for="search"></label>
+          <input type="text" name="" id="search" placeholder="search here" />
+        </div>
+        <!-- <ul>
+          <li>Home</li>
+          <li>Contact US</li>
+          <li>About Us</li>
+        </ul> -->
+      </nav>
+      <p id="p">javascript</p>
+      <ul>
+        <li>Home</li>
+        <li>Service</li>
+        <li>About</li>
+      </ul>
+      <button>hello</button>
+    </header>
+    <script>
+      // const heading = document.createElement(`h1`);
+      // heading.textContent = "Hey There everyone"
+      //  heading.style.fontSize = `32px`;
+      //  console.log(heading);
+      //  document.body.appendChild(heading);
+      // const ul = document.querySelector(`ul`);
+      // console.log(ul);
+      // const lists = document.querySelectorAll(`li`);
+      // console.log(lists);
+
+      // for  (list of lists) {
+      //    ul.removeChild(list);
+      // }
+      // document.body.addEventListener("click",showMessage());
+
+      // function showMessage () {
+      //     document.querySelector(`#p`).innerText = "Clicked On Page";
+      // }
+
+      //   let btn = document.getElementById("cl");
+
+      //   const func = () => {
+      //     btn.innerText = "i am clicked";
+      //     btn.style.color = `#20ae`;
+      //     btn.style.padding = `20px`;
+      //   };
+
+      // creating a element
+      // const heading = document.createElement(`li`);
+      // heading.className = `FirstHeading`;
+      // heading.textContent = `this is heading`;
+      // heading.style.fontSize = `30px`;
+      // console.log(heading);
+      // document.body.appendChild(heading);
+
+      // const ul = document.querySelector(`ul`);
+      // console.log(ul);
+      // const lists = document.querySelectorAll(`li`);
+      // console.log(lists);
+      // // remove child
+      // for (list of lists) {
+      //   ul.removeChild(list);
+      // }
+
+      // append child
+
+      let createHeading = document.createElement("h1");
+      createHeading.className = "ele";
+      createHeading.style.fontSize = `5em`;
+      createHeading.textContent = "vaishnav";
+      console.log(createHeading);
+      document.body.appendChild(createHeading);
+
+      // Remove Child
+      let parentList = document.querySelector("ul");
+      console.log(parentList);
+      let lis = document.querySelectorAll("li");
+      console.log(lis);
+      for (list of lis) {
+        parentList.removeChild(list);
+      }
+    </script>
+  </body>
+</html>

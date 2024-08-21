@@ -1,0 +1,96 @@
+/* designing the body */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100vh;
+}
+
+/* designing the first enable button */
+.wrapper {
+  width: 150px;
+  height: 60px;
+  background-color: #9c9595;
+  border-radius: 30px;
+  display: flex;
+  justify-content: end;
+}
+
+.firstChild {
+  height: 40px;
+  width: 50px;
+  background-color: #02ad27;
+  margin: 5px 3px 0px 0px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.inner-child {
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  margin: 5px 2px 0px 0px;
+  border-radius: 50%;
+}
+
+/* designing the first enable button */ 
+.second-wrapper {
+  width: 150px;
+  height: 60px;
+  background-color: #9c9595;
+  border-radius: 30px;
+  display: flex;
+  justify-content: start;
+}
+
+.second-Child {
+  height: 40px;
+  width: 50px;
+  background-color: #b80934;
+  margin: 5px 0px 0px 3px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: start;
+}
+
+.second-enable {
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  margin: 4px 0px 0px 2px;
+  border-radius: 50%;
+}
+
+ /* designing the first enable button */ 
+.third-wrapper {
+  width: 150px;
+  height: 60px;
+  background-color: #9c9595;
+  border-radius: 30px;
+  display: flex;
+  justify-content: start;
+}
+
+.third-upper-enable {
+  height: 40px;
+  width: 50px;
+  background-color: #bbbbbb;
+  margin: 5px 0px 0px 3px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: start;
+}
+
+.third-enable {
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  margin: 4px 0px 0px 2px;
+  border-radius: 50%;
+}

@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@media screen and (0px < width < 425px) {
+    body{
+        background-color: #f9f947;
+    }
+    
+}
+
+@media screen and (425px < width < 767px) {
+  body {
+    background-color: #aa2020;
+  }
+}
+
+@media screen and (768px < width < 1023px) {
+  body {
+    background-color: #2ecfe1;
+  }
+}
+
+@media screen and (1024px < width <1200px) {
+  body {
+    background-color: #967818;
+  }
+}
+
+@media screen and (1200px < width < 1300px) {
+  body {
+    background-color: #1b8e34;
+  }
+}
+
+@media screen and (1300px < width < 1450px) {
+  body {
+    background-color: #53edd6;
+  }
+}

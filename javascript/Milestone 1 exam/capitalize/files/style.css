@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f8b9f;
+}
+
+input {
+    height: 30px;
+    background-color: #171313;
+    color: #fff;
+    display: block;
+    margin-bottom: 10%;
+    font-size: 1em;
+    padding: 0px 0px 0x 10px;
+}
+
+button {
+    margin: 0px 0px 0px 50px;
+    padding: 5px 20px;
+    font:1em;
+    background-color: rgb(87, 112, 112);
+    color: #fff;
+    font-weight: 900;
+}

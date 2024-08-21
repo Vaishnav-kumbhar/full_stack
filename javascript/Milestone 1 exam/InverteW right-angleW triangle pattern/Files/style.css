@@ -1,0 +1,92 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.box {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #808080;
+  box-shadow: 8px 0 8px #808080;
+  margin-top: 250px;
+}
+
+.box button {
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 18px;
+  transition: 0.5s;
+  margin-top: 15px;
+  background-color: #008bdc;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.box button:hover {
+  transform: translateY(-3px);
+}
+
+label {
+  font-size: 18px;
+  margin-block: 15px;
+  color: #191919;
+}
+
+
+input {
+  padding: 6px 20px;
+  font-size: 18px;
+  transition: 0.3s;
+  width: 100%;
+  text-align: center;
+}
+
+input:focus {
+  border: 2px solid #0f0404;
+}
+section div:last-child {
+  flex-direction: column;
+  gap: 50px;
+}
+section div:last-child p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #180e2e;
+}
+
+section div:last-child div {
+  font-size: 25px;
+  color: #191919;
+  font-weight: 600;
+}
+

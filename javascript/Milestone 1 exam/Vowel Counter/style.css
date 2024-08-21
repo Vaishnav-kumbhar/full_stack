@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23827a;
+}
+
+h3 {
+  font-size: 2em;
+  margin: 0px 0px 20px 90px;
+}
+
+#user-name {
+  display: block;
+  margin: 10px 0px 20px 0px;
+  height: 30px;
+  font-size: 1.5em;
+}
+
+#submit-btn {
+  margin-left: 100px;
+  padding: 5px 10px;
+  background-color: #38d3a7;
+  font-size: 1em;
+  border: none;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dblClick Assignment</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .cont {
+        height: 100px;
+        width: 100px;
+        border: 2px solid;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cont">Click</div>
+
+    <!-- adding the js file -->
+    <script>
+      const container = document.querySelector(`.cont`);
+      console.log(container);
+      container.addEventListener(`dblclick`, () => {
+        alert(`You have clicked`);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,293 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* designing nav bar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  background-color: #ffc107;
+}
+
+.cont {
+  display: flex;
+  gap: 10px;
+  margin: 7px -150px 0px 0px;
+}
+
+.indian-logo > img {
+  height: 30px;
+}
+
+.number-mail {
+  display: flex;
+  gap: 3px;
+  cursor: pointer;
+}
+
+#blank {
+  background-color: #454444;
+  height: 30px;
+  width: 1px;
+}
+
+nav > p {
+  margin-top: 7px;
+  font-weight: 900;
+  color: #fff;
+  margin-left: -150px;
+}
+
+.number {
+  background-color: #dc3545;
+  color: #fff;
+  height: 30px;
+  text-align: center;
+}
+
+.mail {
+  background-color: #17a2b8;
+  color: #fff;
+  height: 25px;
+}
+
+.log-in {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.log-in > img {
+  height: 100px;
+}
+
+.prsu-heading {
+  display: flex;
+  gap: 20px;
+  margin-left: -110px;
+}
+
+.prsu-heading > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.right-side {
+  display: flex;
+  gap: 3px;
+}
+
+.college {
+  height: 50px;
+  width: 110px;
+  text-align: center;
+}
+
+.clg-in {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.addmission-log-in {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.examinition {
+  background-color: #28a745;
+}
+
+.marks {
+  background-color: #ffc107;
+}
+
+#grade {
+  color: #9acd32;
+}
+
+#nirf {
+  color: #cd4a37;
+}
+
+.red-color {
+  color: #cd4a37;
+  font-weight: 900;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+  background-color: #19bfd9;
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.list > li {
+  list-style: none;
+  margin: 15px 0px 0px 50px;
+}
+
+.list > li:hover {
+  background-color: #020e27;
+}
+
+.list > li > a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 900;
+}
+
+main > img {
+  width: 100%;
+  height: 450px;
+}
+
+.all-cards-parent {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  margin: 30px 40px;
+}
+
+.card1 {
+  display: flex;
+  gap: 15px;
+  border: 10px solid #09c;
+  background-color: #09c;
+  text-align: center;
+  font-size: 1.1em;
+  list-style: none;
+  position: relative;
+  margin-top: -150px;
+  flex-basis: 400px;
+  color: #fff;
+  height: 200px;
+}
+
+.card {
+  border: 2px solid #17a2b8;
+  background-color: #09c;
+  /* width: 300px; */
+  margin-top: -150px;
+  flex-basis: 400px;
+  height: 200px;
+  color: #fff;
+}
+
+.card h2 {
+  color: #ff9;
+}
+
+.card1 h2 {
+  color: #ff9;
+}
+
+.admsn {
+  margin: 20px 0px 0px 10px;
+}
+
+#admsn-img {
+  margin: 20px 0px 0px 100px;
+}
+
+.exm {
+  margin: 25px 0px 0px 10px;
+}
+
+#home-apply-img {
+  margin: -90px 0px 0px 250px;
+}
+
+.app {
+  margin: 20px 0px 0px 10px;
+}
+
+#certificate-img {
+  margin: 20px 0px 0px 100px;
+}
+
+.result-contaier {
+  margin: 20px 0px 0px 10px;
+}
+
+#home-visit-img{
+  margin: 20px 0px 0px 30px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  gap: 50px;
+}
+
+section > img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.about {
+  width: 500px;
+}
+
+.about > h1 {
+  color: #5c4f4f;
+}
+
+.about > p {
+  color: #624c4c;
+}
+
+.about > button {
+  margin-top: 20px;
+  padding: 5px 10px;
+  border: 2px solid #020e27;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #020e27;
+  color: #fff;
+  margin-bottom: 100px;
+  height: 350px;
+}
+
+.first-col {
+  width: 300px;
+  margin-top: 30px;
+}
+
+.second-col {
+  margin-top: 30px;
+  color: #fff;
+}
+
+.second-col li {
+  list-style: none;
+}
+
+.second-col > li > a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.about-prsu {
+  width: 300px;
+  margin-top: 30px;
+}

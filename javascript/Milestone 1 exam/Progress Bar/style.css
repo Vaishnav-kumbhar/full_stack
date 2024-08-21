@@ -1,0 +1,30 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: 0px;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* scroll-behavior: auto; */
+  margin-bottom: 150px;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bar {
+  height: 10px;
+  width: 150px;
+  background-color: #fff;
+  border-radius: 100px;
+}

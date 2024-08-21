@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "Lato", sans-serif;
+}
+
+/* designing body */
+body {
+  height: 100vh;
+}
+
+/* designing a image of navbar */
+nav > img {
+  width: 150px;
+  margin: 2% 0px 0px 5%;
+}
+
+#parentCard {
+  width: 65%;
+  height: 75vh;
+  background-color: #fff;
+  margin: 3% 0px 0px 200px;
+  box-shadow: 0 0 30px hsla(0, 0%, 58.4%, 0.25);
+}
+
+/* desiging  parentDiv */
+
+#parentDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* designing left section image */
+#left-section > img {
+  width: 500px;
+  border-top-right-radius: 3.5rem;
+  border-bottom-right-radius: 3.5rem;
+}
+
+/* designing right section */
+#right-section {
+  border: 2px solid;
+  height: 500px;
+  width: 700px;
+  text-align: center;
+  border: none;
+}
+
+/* right section paragraph */
+#right-section > p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#right-section > h2 > span {
+  font-size: 1.4em;
+}
+
+#numberInput {
+  margin-top: 10%;
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#btn {
+  margin-top: 8%;
+  padding: 15px 70px;
+  background-color: rgb(68, 0, 176);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#hr {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+
+#hr > hr {
+  width: 200px;
+  margin: 10px 0px 0px 10px;
+}
+
+#email {
+  margin-top: 2%;
+  height: 30px;
+  width: 250px;
+  padding: 10px;
+}

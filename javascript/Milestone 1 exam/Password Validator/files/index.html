@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Validator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- creating a form to store input tage -->
+
+    <form action="">
+      <fieldset>
+        <label for="name">Enter Your Name:</label>
+        <input type="text" name="" id="name" required /><br />
+        <label for="email">Enter Your Email:</label>
+        <input type="email" name="" id="email" required /><br />
+        <label for="pass">Enter Your Password:</label>
+        <input type="password" name="" id="pass" required /><br />
+        <label for="pass"> Confirm Password:</label>
+        <input type="cnfmPassword" name="" id="pass2" required /><br />
+        <label for="gen">Select Your gender: Male</label>
+        <input
+          type="radio"
+          name="gender"
+          id="gen"
+          value="male"
+          checked
+          required
+        />
+        <label for="female">Female</label>
+        <input
+          type="radio"
+          name="gender"
+          id="female"
+          value="female"
+          required
+        /><br />
+        <div id="btn">
+          <button type="submit" required id="submitBtn">Submit</button>
+        </div>
+      </fieldset>
+    </form>
+
+    <!-- adding js
+     -->
+     <script src="./script.js"></script>
+  </body>
+</html>

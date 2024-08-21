@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1e1a;
+
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+ 
+}
+
+#user-item {
+  height: 30px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+#submit-button {
+  width: 100px;
+  margin-left: 80px;
+  padding: 5px;
+  text-align: center;
+  font-size: 0.5em;
+  background-color: #efd007;
+  border: none;
+}

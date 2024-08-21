@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ece9e9;
+}
+
+fieldset {
+  height: 300px;
+  width: 60vw;
+}
+
+#name {
+  margin: 10px 0px 0px 25px;
+  border-radius: 10px;
+  height: 30px;
+  width: 200px;
+  padding: 0px 20px;
+  font-size: 16px;
+}
+
+#email {
+  margin: 10px 0px 0px 25px;
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 0px 20px;
+  font-size: 16px;
+}
+
+#pass {
+  margin-top: 10px;
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 0px 20px;
+  font-size: 16px;
+}
+
+#pass2 {
+  margin: 10px 0px 0px 17px;
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 0px 20px;
+  font-size: 16px;
+}
+
+#gen {
+  margin-top: 20px;
+}
+
+label {
+  /* align-content: center; */
+  /* align-self: center; */
+  padding: 0px 10px;
+  font-weight: 900;
+  /* color: #fff; */
+}
+
+form {
+  background-image: linear-gradient(to left bottom, #5fa7db, transparent);
+  border: 5px solid;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+#btn > button {
+  padding: 0px 80px;
+  background-color: #24c8e8;
+  color: #000;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+/* writing media queries */
+/* @media (min-width: 300px) {
+  form {
+    height: 400px;
+  }
+
+  label {
+    margin-left: 20px;
+  }
+
+  #name {
+    margin-top: 0px;
+  }
+
+  #email {
+    margin-top: 0px;
+  }
+
+  #pass {
+    margin-top: 0px;
+    margin-left: 25px;
+  }
+
+  #pass2 {
+    margin-top: 0px;
+    margin-left: 25px;
+  }
+
+  #gen {
+    margin-top: 5px;
+    margin-left: 20%;
+  }
+
+  fieldset {
+    height: 78.7vh;
+  } */
+/* } */

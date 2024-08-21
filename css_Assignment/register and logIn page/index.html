@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pw Skills LogIn page</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- linking fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- link google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <img src="./PWSkills-main.png" alt="" />
+    </nav>
+    <!-- creating a div to store login page -->
+    <div id="parentCard">
+      <div id="parentDiv">
+        <!-- creating a div for left section -->
+        <div id="left-section">
+          <img src="/signin-card.png" alt="" />
+        </div>
+        <!-- creating a div for right section -->
+        <div id="right-section">
+          <h2>Welcome to <br /><span id="pwName">Pw Skills</span></h2>
+          <p>Please enter your phone number to login/register.</p>
+          <label for="numberInput">
+            <!-- <img src="./india logo.jpg" alt=""> -->
+            <input
+              type="number"
+              name=""
+              id="numberInput"
+              placeholder="enter your number"
+            /> </label
+          ><br />
+          <button id="btn">Get OTP</button>
+          <!-- creating a div to contains hr -->
+          <div id="hr">
+            <hr />
+            or
+            <hr />
+          </div>
+          <label for="email">
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="enter your gmail"
+            />
+          </label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

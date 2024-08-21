@@ -1,0 +1,22 @@
+{
+  "name": "1st-project",
+  "version": "1.0.1",
+  "description": "This is my first project which is made for pratice",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "vaishnav",
+    "kumbhar",
+    "my-project"
+  ],
+  "author": "vaishnav kumbhar",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}

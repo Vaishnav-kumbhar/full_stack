@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px rgb(221, 220, 220);
+  border: none;
+  font-weight: 700;
+}
+
+#wrapper > input {
+  height: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#wrapper > button {
+  padding: 5px 8px;
+  border: none;
+  background-color: #d57979;
+  font-weight: 700;
+  cursor: pointer;
+}

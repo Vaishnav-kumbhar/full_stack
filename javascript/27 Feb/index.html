@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom part-I</title>
+  </head>
+  <body>
+    <!-- creating a header -->
+    <h1>javasacript!</h1>
+    <p id="para">
+      <span>hey!</span> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Dolore libero minus amet quibusdam adipisci dolores. Commodi repellat
+      velit sapiente cum dignissimos. Dicta ea fugit architecto quam delectus
+      ullam porro non?
+    </p>
+
+    <ul>
+      <li class="list"><span>hello</span> zero</li>
+      <li class="list">first</li>
+      <li class="list">second</li>
+      <li class="list">third</li>
+    </ul>
+
+    <p id="marker"><span>hello</span>this is marker pen</p>
+    <h2>raipur</h2>
+    <h2>Bhilai</h2>
+    <p class="para">hello world!</p>
+    <p id="par">hello world!</p>
+
+    <script>
+      // ID
+      // // console.log(document.getElementById(`para`));
+      // const firstPara = document.getElementById(`para`);
+      // console.log(firstPara.innerText);
+      // console.log(firstPara);
+      //  console.log(firstPara);
+      // Class
+      // const lists = document.getElementsByClassName(`list`);
+      // console.log(lists);
+      // lists[1].innerText = `node js`;
+      // console.log(lists);
+
+      //   TagName;
+      //   const liTag = document.getElementsByTagName(`li`);
+      //   // console.log(liTag [2].innerText);
+      //   liTag[2].innerText = `thsi is updatated`;
+
+      //   liTag[2].style.color = `#2ae`;
+      //   liTag[2].className = `firstLi`;
+
+      // const classHolder = window.document.querySelector(`.list1`);
+      // const classHolder = document.getElementsByClassName("list");
+      // classHolder.className = `firstLi`
+      // classHolder.classList = `list, list2,  list3`;
+      // classHolder.setAttribute(`title`, `unique id`);
+      // console.log(classHolder);
+      let marker = document.getElementById("marker");
+      console.log(marker.innerHTML);
+      let lists = document.getElementsByClassName("list");
+      console.log(lists[2].innerText);
+      lists[0].innerText = `this first line of list`;
+      console.log(lists);
+      let heading = document.getElementsByTagName("h2");
+      console.log(heading[0].innerText);
+      heading[1].style.color = "#000";
+      heading[1].style.textAlign = "center";
+      let cls = document.querySelector(".para");
+      // cls.className = "paragraph";
+      cls.classList = ("hello world universe");
+      console.log(cls);
+      let ids = document.querySelector("#par");
+      console.log(cls.innerText);
+      // console.log(ids);
+      ids.setAttribute("id", "attribute");
+      ids.setAttribute("title", "writte by vaishnav");
+    </script>
+  </body>
+</html>

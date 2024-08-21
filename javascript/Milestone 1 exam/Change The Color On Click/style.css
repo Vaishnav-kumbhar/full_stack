@@ -1,0 +1,24 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #2fba6b;
+    border: none;
+    padding: 5px 5px;
+    font-weight: 900;
+    border-radius: 50px;
+    color: aliceblue;
+    cursor: pointer;   
+}

@@ -1,0 +1,345 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+  color: #fff;
+}
+
+body {
+  background-color: #080505;
+  color: #fff;
+  width: 100vw;
+  /* height: 100vh; */
+  font-family: "Lato", sans-serif;
+  /* margin: 0px 15vw; */
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  height: 200px;
+}
+.b-logo {
+  height: 25px;
+  width: 25px;
+  margin-top: 8px;
+}
+
+.earphone-logo {
+  height: 500px;
+  width: 170px;
+}
+
+#right-navigation-list li a {
+  text-decoration: none;
+}
+
+#right-navigation-list > li {
+  list-style: none;
+}
+
+#right-navigation-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  /* width: 100%; */
+  /* margin-right: -800px; */
+}
+
+.nav-btn {
+  color: #faf0f0;
+  padding: 8px 30px;
+  background-color: #3e3c3c;
+  border: 1px solid #f8f4f4;
+  text-align: center;
+  /* box-shadow: 50px; */
+  border-radius: 10%;
+  width: 100px;
+}
+
+.main-image {
+  width: 300px;
+  margin-left: 60%;
+  margin-top: 4em;
+  position: relative;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+
+.beat-container h1 {
+  font-size: 3em;
+}
+
+.beat-container {
+  margin-left: 45%;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+.main-para {
+  margin-top: 30px;
+}
+
+.main-section-btn {
+  margin-top: 30px;
+  background-color: #272626;
+  padding: 10px 25px;
+  text-align: center;
+  font-weight: 300;
+  border-radius: 10%;
+  width: 200px;
+}
+
+.logos {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mid-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.bluetooth {
+  margin-left: 80px;
+}
+
+#battery {
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+#charger {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+#mic {
+  margin-left: 75px;
+  margin-top: 30px;
+}
+
+.span {
+  color: #b4b1b1;
+}
+
+/* begin the second section */
+.second-mid-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+#mouse-logo {
+  margin-top: 50px;
+  height: 400px;
+}
+
+.mouse-para {
+  display: flex;
+  margin-top: 30px;
+  gap: 50px;
+}
+
+.para {
+  margin-top: 170px;
+}
+
+#mouse-btn {
+  margin-left: 300px;
+  margin-top: -100px;
+  background-color: #3e3c3c;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10%;
+  border: 2px solid #fff;
+}
+
+.third-mid-section {
+  display: flex;
+  margin-top: 200px;
+  gap: 100px;
+  border: 2px solid #1c1616;
+  background-color: #2f2f2f;
+  width: 900px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+  border-radius: 5%;
+}
+
+.third-section {
+  margin-left: 20px;
+  margin-top: -30px;
+}
+
+.third-section-btn {
+  margin-top: 50px;
+  background-color: #292828;
+  widt h: 100px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 10%;
+}
+
+.third-section > p {
+  margin-top: 25px;
+}
+
+/* begin the fourt section */
+.words-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.black-red {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.black-headhphone {
+  height: 250px;
+}
+
+.red-headphone {
+  height: 250px;
+}
+
+.black {
+  background-color: #2f2e2e;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.red {
+  background-color: #2f2e2e;
+  border-radius: 5%;
+  text-align: center;
+}
+
+/* second headphone section */
+.orange-blue {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.orange-headphone {
+  height: 250px;
+}
+
+.blue-headphone {
+  height: 250px;
+}
+.orange {
+  background-color: #2f2e2e;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.blue {
+  background-color: #2f2e2e;
+  text-align: center;
+  border-radius: 5%;
+}
+
+/* third headphone section */
+.twilightGray {
+  display: flex;
+  justify-content: center;
+  margin-left: -300px;
+  margin-top: 20px;
+}
+
+.gray {
+  text-align: center;
+  background-color: #2f2e2e;
+  border-radius: 5%;
+}
+.gray-headphone {
+  height: 250px;
+}
+
+/* footer section start */
+
+ .footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  text-transform: capitalize;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-logos{
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.input input {
+  height: 35px;
+  width: 200px;
+  border-radius: 10%;
+}
+
+footer{
+  margin-bottom: 100px;
+}
+
+li:hover{
+  cursor: pointer;
+  border: 2px solid #f7e8f7;
+  background-color: #0c0b0b;
+  color: #fff;
+
+}
+
+button:hover{
+  background-color: #fff;
+  color: #080505;
+  cursor: pointer;
+}
+
+
+
+
+

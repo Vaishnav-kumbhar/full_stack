@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>keyup keydown Assignment</title>
+  </head>
+  <body>
+    <h1 id="head">Node js</h1>
+
+    <p id="para">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eligendi
+      exercitationem porro quaerat nobis illo quos dolorum? Neque incidunt
+      culpa, voluptas libero sunt corporis labore facilis ullam iste pariatur
+      nobis.
+    </p>
+
+    <!-- js -->
+    <script>
+      const head = document.getElementById(`head`);
+      const para = document.getElementById(`para`);
+      document.addEventListener("keyup", (event) => {
+        head.innerText = event.key + ` is key up`;
+      });
+
+      document.getElementById(`head`);
+      document.addEventListener("keydown", (event) => {
+        head.innerText = event.key + ` is keydown`;
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#result {
+    margin:0px 0px 100px 0px;
+    border: 2px solid;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 25px 0px 0px 0px ;
+}
+
+#pressBtn {
+  margin: 5% 0px 0px 9vw;
+  padding: 10px 20px;
+  background:linear-gradient(50deg, #000, #156a9b);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+}
+
+

@@ -1,0 +1,100 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #f0f4f5;
+  max-width: 1440px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  margin-top: 3%;
+  font-size: 1.1em;
+  font-weight: 900;
+}
+
+.medifine {
+  margin-left: 170px;
+  height: 40px;
+}
+
+nav > ul {
+  display: flex;
+  gap: 40px;
+  /* width: 35%; */
+}
+
+ul > li {
+  list-style: none;
+}
+
+li > a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(9, 57, 215);
+}
+
+/* designing the main section */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+  margin-left: 100px;
+}
+
+main > h2 {
+  color: rgb(7, 188, 127);
+  font-weight: 900;
+}
+
+main > p {
+  margin-top: 3%;
+  text-transform: lowercase;
+  text-align-last: center;
+}
+
+.btn-container {
+  margin-top: 4%;
+  display: flex;
+  gap: 30px;
+}
+
+/* designing the button */
+button {
+  height: 65px;
+  width: 150px;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(7, 188, 127);
+  font-weight: 900;
+  box-shadow: 10px 10px rgb(165, 165, 165);
+}
+
+button h3 {
+  color: #000;
+  margin-top: 2px;
+}
+
+button:hover {
+  background-color: #18d356;
+  color: #000;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: none;
+}

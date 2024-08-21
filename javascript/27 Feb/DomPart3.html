@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+
+      button {
+        padding: 30px 80px;
+        font-size: 2em;
+        background-color: #5bc0de;
+        border: none;
+        border-radius: 20px;
+        font-weight: 900;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!--creating button  -->
+    <button onclick="exe()">Press Me</button>
+
+    <script>
+      //   const button = document.querySelector(`button`);
+      //   button.textContent = "This is button";
+      //   button.style.color = `#2af`;
+      //   button.style.padding = `10px`;
+      //   button.style.margin = `200px`;
+      //   button.className = `first-heading`;
+
+      //   const heading = document.createElement(`h1`);
+      //   heading.textContent = `This is heading`;
+      //   document.body.appendChild(heading);
+      //   heading.addEventListener("click", alt);
+      //   let = document;
+      //   function alt() {
+      //     button.style.width = `50%`;
+      //     button.style.backgroundColor = `#fd7e80`;
+      //     button.style.transition = `10s`;
+      //   }
+
+      function exe() {
+        let hd = document.createElement("h1");
+        hd.className = "heading";
+        hd.textContent = "you pressed this button";
+        hd.style.fontSize = "4em";
+        hd.style.color = "red";
+        document.body.appendChild(hd);
+        console.log(hd);
+      }
+    </script>
+  </body>
+</html>

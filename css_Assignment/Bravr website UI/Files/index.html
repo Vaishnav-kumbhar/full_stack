@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brave Browser</title>
+  </head>
+  <link rel="stylesheet" href="./style.css" />
+  <!-- linking font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- linking google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <body>
+    <!-- creating a header -->
+    <header>
+      <!-- creating navbar -->
+      <nav>
+        <!-- creating lists -->
+        <ul>
+          <li><a href="#">Browser</a></li>
+          <li><a href="#">Brave Search</a></li>
+          <li><a href="#">Why Brave</a></li>
+          <li><a href="#">Get help</a></li>
+          <li><a href="#">Private Advertising</a></li>
+        </ul>
+        <div id="nav-image">
+          <img src="/assets/brave-logo.svg" alt="brave logo" />
+        </div>
+        <div id="navbtns">
+          <button id="nav1stBtn">Download Brave</button>
+          <button id="nav2ndBtn">Try Brave Search</button>
+        </div>
+      </nav>
+      <main>
+        <h1>The best privacy online</h1>
+        <p>
+          3x faster than Chrome. Better protecton
+          from google and Big Tech
+        </p>
+        <button id="DownloadBtn">Download Brave</button>
+      </main>
+      <img src="/assets/desktop-hero-screenshot@1x.webp" alt="sreenshot" />
+    </header>
+
+    <!-- creating a first section -->
+    <section id="first-section">
+      <div class="left-section">
+        <h2>
+          stop being 
+          followed online
+        </h2>
+        <p>
+          By By default, Brave blocks the trackers & creepy ads on every website
+          you visit. And that thing where ads follow you across the Web? We
+          block that, too.
+        </p>
+      </div>
+      <div id="right-section">
+        
+      </div>
+    </section>
+
+    <!-- second section -->
+    <section id="second-section">
+      <div id="second-section-privacy-image">
+        <img
+          src="/assets/home-illustration-01.webp"
+          alt="privacy image"
+          id="privacyImage"
+        />
+      </div>
+
+      <div id="second-right-section">
+        <h2>
+          Online privacy
+          made simple
+        </h2>
+        <p>
+          All the good od ad-blocking, incognito <br />
+          window, private search , even VPN. All in a single download
+        </p>
+      </div>
+    </section>
+
+    <!-- third section -->
+    <section id="third-section">
+      <div id="third-left-section">
+        <h1>
+          Switch in 60 <br />
+          seconds
+        </h1>
+        <p>
+          Quickly import bookmarks, extensions, even saved passwords. It’s the
+          best of your old browser, only safer. And it only takes a minute to
+          switch.
+        </p>
+      </div>
+
+      <div id="third-right-section">
+        <img src="/assets/home-illustration-02.webp" alt="illustration2" />
+      </div>
+    </section>
+
+    <!-- fourth section -->
+    <section id="fourth-section">
+      <div id="fourth-left-section">
+        <img src="/assets/home-illustration-03.webp" alt="illustration03" />
+      </div>
+
+      <div id="fourth-right-section">
+        <h1>The new super app</h1>
+        <p>
+          Brave brings <span>truly independent search, free video calls, offline
+            playlists, even a customizable news feed.</span> All fully private. All right
+          to your browser super app.
+        </p>
+      </div>
+    </section>
+    
+    <!-- fifth section -->
+    <section id="fifth-section">
+      <div id="fifth-left-section">
+        <h1>Privacy you can see</h1>
+        <p>
+          No creepy ads & trackers means less stuff (visible or hidden) on the
+          sites you visit. And that means faster page load, better battery life,
+          even mobile data savings.
+        </p>
+      </div>
+
+      <div id="fifth-right-section">
+        <img src="/assets/home-illustration-04.webp" alt="illustration-04" />
+      </div>
+    </section>
+
+    <!-- sixth section -->
+    <section id="sixth-section">
+      <div id="heading">
+        <h1>Online privacy by default: Brave vs. other browsers</h1>
+      </div>
+      <div id="sixth-right">
+        <div class="right-icon" >
+          <img src="/assets/correct.png" alt="right-sign-icon" class="icon" />
+          <p>Strong protection</p>
+        </div>
+        <div class="right-icon">
+          <img src="/assets/remove.png" alt="cross-logo"  class="icon"/>
+          <p>No protection</p>
+        </div>
+        <div class="right-icon">
+          <img src="/assets/4315581.png" alt="brave logo"  class="icon"/>
+          <p>Limited protection</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- creating all card wraper section -->
+    <section id="wrapper">
+      <!-- first row -->
+      <div id="firstrow">
+        <div class="text-first-row-item">
+          <p>Built-in features</p>
+        </div>
+        <div class="row-items">
+        <div class="brave first-row-item">
+          <img src="/assets/brave-logo-sans-text.svg" alt="brave logo" class="icons" />
+          <p>brave</p>
+        </div>
+        <div class="chrome first-row-item">
+          <img src="/assets/chrome-logo.svg" alt="chrome logo"  class="icons"/>
+          <p>Chrome</p>
+        </div>
+        <div class="duck first-row-item">
+          <img src="/assets/duckduckgo-logo.svg" alt="duckduckgo logo" class="icons" />
+          <p>DDG</p>
+        </div>
+        <div class="edge first-row-item">
+          <img src="/assets/edge-logo.svg" alt="edge-logo"  class="icons"/>
+          <p>Edge</p>
+        </div>
+        <div class="firefox first-row-item">
+          <img src="/assets/firefox-logo.svg" alt="firefox logo" class="icons" />
+          <p>Firefox</p>
+        </div>
+        <div class="safari first-row-item">
+          <img src="/assets/safari-logo.svg" alt="safari logo" class="icons" />
+          <p>Safari</p>
+        </div>
+      </div>
+      </div>
+      <!-- second row -->
+      <!-- creating second div parent -->
+      <div class="second-row">
+        <div class="text2-second-row-item">
+          <p>Invasive adds blocked</p>
+        </div>
+        <div class="row-items2">
+        <div>
+          <img src="/assets/correct.png" alt="right tick icon" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/4315581.png" alt="minus logo" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/correct.png" alt="right tick" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/remove.png" alt="remove logo"  class="icons"/>
+        </div>
+        <div>
+          <img src="/assets/remove.png" alt="remove logo" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/remove.png" alt="remove logo" class="icons" />
+        </div>
+      </div>
+      </div>
+      <!-- creating third row div -->
+      <div id="third-row">
+        <div id="text3-third-row-item">
+          <p>Cross-site trackers blocked</p>
+        </div>
+        <div id="third-row-items">
+          <div>
+          <img src="/assets/correct.png" alt="right tick icon" class="icons" />
+        </div>
+
+        <div>
+          <img src="/assets/remove.png" alt="right tick icon" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/correct.png" alt="right tick icon"  class="icons"/>
+        </div>
+        <div>
+          <img src="/assets/4315581.png" alt="right tick icon" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/4315581.png" alt="right tick icon" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/remove.png" alt="right tick icon" class="icons" />
+        </div>
+      </div>
+      </div>
+
+      <!-- creating fourth row  div -->
+      <div id="fourth-row">
+        <div class="text4">
+          <p>Cookies blocked</p>
+        </div>
+        <div id="fourth-row-items">
+        <div>
+          <img src="/assets/correct.png" alt="right tick logo" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/remove.png" alt="right tick logo"  class="icons"/>
+        </div>
+        <div>
+          <img src="/assets/correct.png" alt="right tick logo"  class="icons"/>
+        </div>
+        <div>
+          <img src="/assets/4315581.png" alt="right tick logo" class="icons"/>
+        </div>
+        <div>
+          <img src="/assets/correct.png" alt="right tick logo" class="icons"/>
+        </div>
+        <div>
+          <img src="/assets/correct.png" alt="right tick logo"  class="icons"/>
+        </div>
+      </div>
+      </div>
+
+      <!-- creatign fifth row div -->
+      <div id="fifth-row">
+        <div id="text5">
+          <p>Fingerprinting blocked (cookie-less trackers)</p>
+        </div>
+        <div id="fifth-row-items">
+       <div>
+          <img src="/assets/correct.png" alt="right tick" class="icons"/>
+        </div>
+        <div>
+          <img src="/assets/remove.png" alt="right tick" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/4315581.png" alt="right tick" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/remove.png" alt="right tick" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/4315581.png" alt="right tick" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/4315581.png" alt="right tick" class="icons" />
+        </div>
+      </div>
+      </div>
+
+      <!-- creatign sixth row div -->
+      <div id="sixth-row">
+        <div id="text6">
+          <p>Malware & phishing protection*</p>
+        </div>
+        <div id="sixth-row-items">
+       <div>
+          <img src="/assets/correct.png" alt="right logo" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/correct.png" alt="right logo"  class="icons"/>
+        </div>
+        <div>
+          <img src="/assets/remove.png" alt="right logo" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/correct.png" alt="right logo" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/correct.png" alt="right logo" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/correct.png" alt="right logo" class="icons" />
+        </div>
+      </div>
+      </div>
+
+      <!-- creatign seventh  -->
+      <div id="seventh-row">
+        <div id="text7">
+          <p>Protections against bounce tracking</p>
+        </div>
+        <div id="seventh-row-items">
+        <div>
+          <img src="/assets/correct.png" alt="right logo" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/remove.png" alt="cross logo" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/4315581.png" alt="minus logo" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/remove.png" alt="cross logo" class="icons"/>
+        </div>
+        <div>
+          <img src="/assets/4315581.png" alt="minus logo" class="icons" />
+        </div>
+        <div>
+          <img src="/assets/remove.png" alt="cross image" class="icons" />
+        </div>
+      </div>
+      </div>
+
+      <!-- creatign eigth row -->
+      <div id="eighth-row">
+        <div id="text8">
+          <p>Anonymized network routing (Tor mode)</p>
+        </div>
+        <div id="eighth-row-items">
+       <div>
+        <img src="/assets/correct.png" alt="right tick" class="icons" />
+      </div>
+      <div>
+        <img src="/assets/remove.png" alt="cross logo" class="icons"/>
+      </div>
+      <div>
+        <img src="/assets/remove.png" alt="cross logo" class="icons" />
+      </div>
+      <div>
+        <img src="/assets/remove.png" alt="cross logo" class="icons" />
+      </div>
+      <div>
+        <img src="/assets/remove.png" alt="cross logo" class="icons" />
+      </div>
+      <div>
+        <img src="/assets/remove.png" alt="cross logo" class="icons" />
+      </div>
+    </div>
+  </div>
+    </section>
+    <div id="notice">
+      <p id="para">
+        * Google safe browsing + malware & phishing protection from crowd-sourced
+        lists. Table describes default desktop browser configurations.
+      </p>
+    </div>
+ 
+
+    <!--creating eitghth section -->
+    <section id="card-section">
+      <div id="heding-section">
+        <h1>Advanced features</h1>
+        <p>
+          Only here for the privacy? We got you. Just     <span id="download">download</span> and <span id="enjoy">enjoy… </span><br> Want a
+          more bespoke experience? Brave’s got great customizations, too:
+        </p>
+      </div>
+      <div class="cards-wrapper">
+        <div id="security-card">
+          <img src="/assets/security-illustration.webp" alt="security card" class="card" />
+          <p>
+            <strong>Advanced security</strong> <br> <br> Built-in IPFS integration, onion
+            routing with Tor, custom filter lists, and     <a href="#">more security features.</a> 
+          </p>
+        </div>
+        <div id="reword-card">
+          <img src="/assets/rewards-illustration.webp" alt="reward image" class="card"/>
+          <p>
+            <strong>Brave Rewards</strong> <br> <br> <a href="#"> Earn crypto tokens for your attention</a>
+            by opting in to privacy-preserving, first-party ads.
+          </p>
+        </div>
+        <div id="wallet-card">
+          <img src="/assets/wallet-illustration.webp" alt="wallet image" class="card" />
+          <p>
+            <strong>crypto Wallet</strong> <br> <br> <a href="#">A secure, browser-native wallet to</a> 
+            buy, store, send, and swap your crypto assets.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- creating nineth section -->
+    <section id="nineth-section">
+      <div id="nineth-first-section">
+        <h1>
+          Join the more than 50 million people (and counting) who trust Brave
+          for a faster, safer Web
+        </h1>
+        <p>
+          Import bookmarks and extensions from your old browser in one click.
+        </p>
+        <button id="btn">
+          <i class="fa-regular fa-arrow-down-to-bracket"></i>
+          Downoad Brave
+        </button>
+      </div>
+      <div id="nineth-second-section">
+        <hr />
+        <div class="question">
+          <p>Is the Brave Browser safe?</p>
+     </div>
+        <hr />
+        <div class="question">
+          <p>How do I download & install Brave?</p>
+     </div>
+        <hr />
+        <div class="question">
+          <p>Does Brave have a VPN?</p>
+
+        </div>
+        <hr />
+        <div class="question">
+          <p>What languages is Brave available in?</p>
+         </div>
+        <hr />
+        <div class="question">
+          <p>Who owns Brave?</p>
+        
+        </div>
+        <hr />
+        <div class="question">
+          <p>How does Brave compare to Chrome?</p>
+        
+        </div>
+        <hr />
+        <div class="question">
+          <p>Is Brave free?</p>
+      
+        </div>
+        <hr />
+        <div class="question">
+          <p>What is BAT, and how do I earn it?</p>
+
+        </div>
+        <hr />
+      </div>
+    </section>
+
+    <!-- creating a footer -->
+    <footer>
+      <!-- creating a div first row lists -->
+      <div id="first-footer-row">
+        <div class="flex-item">
+          <h2>Resources</h2> 
+          <li><a href="#">Merch Store</a></li>
+          <li><a href="#">F.A.Q</a></li>
+          <li><a href="#">Help center</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Status</a></li>
+          <li><a href="#">Transparency report</a></li>
+          <li><a href="#">Learn</a></li>
+        </div>
+        <div class="flex-item browser" >
+          <h2>Browser</h2>
+          <li><a href="#">Desktop</a></li>
+          <li><a href="#">Android</a></li>
+          <li><a href="#">iOS</a></li>
+          <li><a href="#">Linux</a></li>
+          <li><a href="#">Beta</a></li>
+          <li><a href="#">Nightly</a></li>
+        </div>
+        <div class="flex-item social">
+          <h2>Social Media</h2>
+          <li><a href="#">Reddit</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Mastodon</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">YouTube</a></li>
+        </div>
+        <div class="flex-item Contact">
+          <h2>Contact</h2>
+          <li>Support</li>
+          <a href="#">community.brave.com</a>
+          <li>Advertising</li>
+          <a href="#">adsales@brave.com</a>
+          <li>Business</li>
+          <a href="#">bizdev@brave.com</a>
+          <li>Press</li>
+          <a href="#">press@brave.com</a>
+        </div>
+      </div>
+       <div id="office-row">
+          <h2>Offices</h2>
+          <li>Brave san francisco</li>
+          <li>580 Howard St. Unit 402,
+            San Francisco, CA 94105</li>
+            <div id="input-section">
+              <p>Choose a language</p>
+              <input type="text" name="" id="">
+            </div>
+        </div>
+      </div>
+
+      <!-- footer second row -->
+      <div id="footer-second-row">
+         <div class="flex-item  Policy">
+          <h2>Privacy Policy</h2>
+          <li>Brave Browser</li>
+          <li>Website & email</li>
+          <li>Publishers & Creators</li>
+          <li>Advertisers</li>
+          <li>CCPA</li>
+         </div>
+         
+         <div class="flex-item">
+          <h2>Company</h2>
+          <li>About</li>
+          <li>Research</li>
+          <li>careers</li>
+          <li>Brand assets</li>
+          <li>Ads auidience</li>
+          <li>Ad formats</li>
+          <li>GitHub</li>
+          <li>Blog</li>
+          <li>Tor Onion address</li>
+         </div>
+         <div class="flex-item">
+          <h2>Products</h2>
+          <li>Search</li>
+          <li>Rewards</li>
+          <li>Wallet</li>
+          <li>Firewall + VPN</li>
+          <li>Talk</li>
+          <li>News</li>
+          <li>Playlist</li>
+          <li>All features</li>
+          <li>Basic Attention
+            Token</li>
+        </div>
+        <div class="flex-item  Developer">
+          <h2>Developer docs</h2>
+          <li>Wallet docs</li>
+        </div>
+
+        <div class="flex-item  Creators">
+          <h2>
+            Creators
+          </h2>
+          <li>Overview</li>
+          <li>Creators media kit</li>
+        </div>
+    </div>
+    <hr>
+    <!-- subfooter -->
+    <div id="subfooter">
+     <img src="/assets/brave-logo.svg" alt="brave logo">
+      <p>Terms of use | Report a security issue &copy; 2015 - 2020 Brave Software, lnc | All rights reserved</p>
+    </div>
+</footer>
+  </body>
+</html>
